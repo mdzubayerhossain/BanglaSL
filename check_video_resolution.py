@@ -18,5 +18,5 @@ for path, subdirs, files in os.walk('videos'):
         else:
             video_resolutions[f"{height}x{width}"] = 1
         vid.release()
-
+#zubayer
 print(video_resolutions)
